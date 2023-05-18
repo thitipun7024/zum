@@ -231,18 +231,106 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid justify-content-center">
-                    <H1 class="text-center justify-content-center">Repair</H1>
-                </div>
-                <div class="text-center">
-                    <div class="error mx-auto" data-text="404">404</div>
-                    <p class="lead text-gray-800 mb-5">Page Not Found</p>
-                    <p class="text-gray-500 mb-0">It looks like you found a glitch in the matrix...</p>
-                    <a href="index.html">&larr; Back to Dashboard</a>
-                </div>
-            </div>
-            <!-- End of Main Content -->
+                                    <!-- from repair-->
+                                    <div class="container-fluid py-5 h-160">
+                                        <div class="row d-flex justify-content-center align-items-center h-100">
+                                            <div class="col">
+                                                <div class="card card-registration">
+                                                    <div class="row g-0">
+                                                            <d iv class="card-body p-md-5 text-black">
+                                                                <h3 class="mb-5 text-uppercase">รายละเอียดอุปกรณ์</h3>
+                                                                <div class="row">
+                                                                    <div class="col-md-2 mb-4">
+                                                                        <select class="form-select" required>
+                                                                            <option value="0">ประเภทอุปกรณ์</option>
+                                                                            <option value="1">PC</option>
+                                                                            <option value="2">Monitor</option>
+                                                                            <option value="3">Printer</option>
+                                                                            <option value="4">UPS</option>
+        
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                    <div class="row">
+                                                                        <div class="col-md-3 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1m">เลขที่สินทรัพย์</label>
+                                                                                <input type="text" id="form3Example1m" class="form-control form-control-lg" required />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">รหัสสาขา</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">หมายเลขซีเรียล</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="row">
+                                                                        <div class="col-md-3 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">ยี่ห้ออุปกรณ์</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-2 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">รุ่น</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="col-md-4 mb-4">
+                                                                        <div class="form-outline">
+                                                                            <label class="form-label" for="form3Example8">สเปคของอุปกรณ์ <small style="color: red;">(*กรุณาเเจ้งให้ระเอียด*)</small></label>
+                                                                            <textarea name="Address" id="" cols="100" rows="5" class="form-control form-control-lg"></textarea>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="row">
+                                                                        <div class="col-sm-2 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">การรับประกัน</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">ปีที่สิ้นสุดประกัน</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-2 mb-4">
+                                                                            <div class="form-outline">
+                                                                                <label class="form-label" for="form3Example1n">ราคา</label>
+                                                                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1">
+                                                                        <label class="form-check-label" for="inlineRadio1">อุปกรณ์เก่า</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+                                                                        <label class="form-check-label" for="inlineRadio2">อุปกรณ์ใหม่</label>
+                                                                      </div>
+                                                                      
+                                            
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
             <!-- Footer -->
